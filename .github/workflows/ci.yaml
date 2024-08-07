@@ -11,7 +11,7 @@ on:
 
 jobs:
   ci:
-    runs-on: flyci-macos-14-m2
+    runs-on: macos-14
     permissions:
       id-token: write
       contents: read
