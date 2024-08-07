@@ -70,3 +70,5 @@ jobs:
       - name: Fix my build
         uses: fly-ci/wingman-action@v1
         if: failure()
+        with:
+          flyci-url: https://dev.api.flyci.dev
